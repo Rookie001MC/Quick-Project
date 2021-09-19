@@ -1,5 +1,47 @@
-div .jumbotron{
-    background-image: url('img/dau_hang_cong_nghe.jpg' );
-    background-size: contain;
-    height: auto;
+html {
+  background-color: #ffffff;
 }
+
+header {
+  background-color: #666666;
+  box-shadow: 0px 9px 19px -1px rgba(84, 180, 248, 0.698);
+}
+header div#jumbotron {
+  background-size: contain;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav#navbar {
+  background-color: darkcyan;
+}
+header a.nav-link#prison-name {
+  font-size: 40px;
+}
+header a.nav-link#prison-name:link {
+  color: whitesmoke;
+}
+header a.nav-link#prison-name:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+header a.nav-link#prison-name:hover:after {
+  width: 100%;
+  left: 0;
+}
+header div#guarantee-not-to-work {
+  color: #ffdbdb;
+  background-color: darkcyan;
+  font-size: 20px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

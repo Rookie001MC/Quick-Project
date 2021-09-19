@@ -16,8 +16,9 @@ Including another URLconf
 import joke_truy_na
 from django.contrib import admin
 from django.urls import path, include
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('joke_truy_na.urls'))
-]
+] +staticfiles_urlpatterns()

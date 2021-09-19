@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    {% load static %}
+{% load static %}
 
 <head>
     <meta charset="UTF-8">
@@ -13,13 +13,44 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-<!-- Custom Styles -->
+
+    <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
 </head>
 
 <body>
-    <div id="jumbotron" class="jumbotron container-fluid">
-    </div>
+    <header>
+        <div id="jumbotron" class="jumbotron container" style="
+            background-image: url(../static/img/dau_hang_cong_nghe.jpg);
+        ">
+        </div>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg top-bar" id="navbar">
+            <div class="container-fluid">
+
+                <!-- Toggle button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <!-- Link -->
+                        <li class="nav-item">
+                            <a class="nav-link" id="prison-name" href="#">*insert prison name here*</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- Navbar -->
+        <div class="container-fluid text-center top-bar" id="guarantee-not-to-work">State-of-the-art management dashboard<br>but effectiveness is debatable.</div>
+    </header>
+    
     {% block page_content %}{% endblock %}
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
