@@ -44,4 +44,14 @@ header div#guarantee-not-to-work {
   padding: 15px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: whitesmoke;
+  border-top: #66666671 solid 0.5px;
+}
+
 /*# sourceMappingURL=styles.css.map */
