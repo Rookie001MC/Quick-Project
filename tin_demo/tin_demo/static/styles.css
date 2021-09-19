@@ -1,0 +1,5 @@
+div .jumbotron{
+    background-image: url('img/dau_hang_cong_nghe.jpg' );
+    background-size: contain;
+    height: auto;
+}
