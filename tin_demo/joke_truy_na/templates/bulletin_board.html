@@ -1,4 +1,31 @@
 {% extends "base.html" %}
 {% load static %}
 {% block page_content %}
+<h1>Prisoner List</h1>
+<hr>
+<div class="container" id="database">
+    <div class="row">
+        {% for prisoner in prisoner_list %}
+        <div class="col-md-4">
+            <div class="card mb-2" style="
+                                        box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);
+                                        -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);
+                                        -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);  
+                                        border-radius: 20px;
+                                        ">
+                <img class="card-img-top" src="/media/{{ prisoner.prisoner_image }}">
+                <div class="card-body" style="
+                                        border: rgba(0,0,0,0.35) solid 0.5px;
+                                        ">
+                    <h3 class="card-title">{{ prisoner.prisoner_name }}</h3>
+                    <p class="card-text">{{ prisoner.prisoner_current_charges | safe }}</p>
+                    <a href="{% url 'prisoner_detail' prisoner.pk %}" class="btn btn-primary">
+                        Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}

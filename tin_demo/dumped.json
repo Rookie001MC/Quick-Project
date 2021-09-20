@@ -1,0 +1,446 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2021-09-20T02:12:08.885Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2021-09-20T02:29:09.337Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner image\", \"Prisoner about\", \"Prisoner current charges\", \"Prisoner old charges\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2021-09-20T02:37:41.316Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2021-09-20T04:38:16.072Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner jail section\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add prisoner",
+    "content_type": 7,
+    "codename": "add_prisoner"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change prisoner",
+    "content_type": 7,
+    "codename": "change_prisoner"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete prisoner",
+    "content_type": 7,
+    "codename": "delete_prisoner"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view prisoner",
+    "content_type": 7,
+    "codename": "view_prisoner"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add attachment",
+    "content_type": 8,
+    "codename": "add_attachment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change attachment",
+    "content_type": 8,
+    "codename": "change_attachment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete attachment",
+    "content_type": 8,
+    "codename": "delete_attachment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view attachment",
+    "content_type": 8,
+    "codename": "view_attachment"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$X7CkR4urWGLcUbpUuZKeLe$ckPFigIQQ3t6yjqM1bFSyMKSGccXleLMPU+Si2U4YYM=",
+    "last_login": "2021-09-20T01:50:02.306Z",
+    "is_superuser": true,
+    "username": "qthang",
+    "first_name": "",
+    "last_name": "",
+    "email": "nguyenquocthang2004@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-09-20T01:49:47.377Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "joke_truy_na",
+    "model": "prisoner"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "django_summernote",
+    "model": "attachment"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "etaik0dai7xq83tdmemzvvenl46gdjx1",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChYEGX7nsGMsxMpWogKe3KeHfbpAvdvvf-f6uI65Lj2mSOE6urMur0yxLSU8ou-IHlXjXVssxT0nuiD9v0UFlet6P9O8jY8rbGbnQWwTmWngJYRyLY4ZiMFfYbw2Cct2efApOxnICJLs6EgGAAevX5AgB4OEE:1mS8RW:Szz7YpanufXPiFeatsEvp9TL3wqkGKGtn5HkAwXkAVs",
+    "expire_date": "2021-10-04T01:50:02.312Z"
+  }
+},
+{
+  "model": "joke_truy_na.prisoner",
+  "pk": "190025",
+  "fields": {
+    "prisoner_name": "Nguyễn Hữu Quốc Thắng",
+    "prisoner_image": "dumbfuck_78Prp8i.jpg",
+    "prisoner_about": "<ul><li>Thằng ngu</li></ul>",
+    "prisoner_current_charges": "<ul><li>Là thằng ngu</li><li>Nói nhiều</li><li>Lằng nhằng</li></ul>",
+    "prisoner_old_charges": "<ul><li>All being dumb</li></ul>",
+    "prisoner_jail_time": 30,
+    "prisoner_jail_section": "Nhà giam riêng",
+    "prisoner_jail_room": 69
+  }
+}
+]

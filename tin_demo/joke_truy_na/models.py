@@ -2,9 +2,9 @@ from django.db import models
 from django.core.validators import RegexValidator
 
 jail_section = (
-    ("common", "Nhà giam chung"),
-    ("private", "Nhà giam riêng"),
-    ("diciplinary", "Nhà kỷ luật"),
+    ("Nhà giam chung", "Nhà giam chung"),
+    ("Nhà giam riêng", "Nhà giam riêng"),
+    ("Nhà kỉ luật", "Nhà kỷ luật"),
 )
 
 # Create your models here.

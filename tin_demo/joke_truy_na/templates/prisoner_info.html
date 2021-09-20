@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block page_content %}
+
+<h1>Thông tin tù nhân</h1>
+<hr>
+<div class="row" style="margin-top: 50px;">
+    <div class="col-md-8" >  
+        <img src="/media/{{prisoner.prisoner_image}}" width="80%">
+    </div>
+    <div class="col-md-4" style="font-size: 25px;">
+        <p><strong>Mã phạm nhân: </strong> {{prisoner.pk}} </p>
+        <p><strong>Họ tên: </strong>{{prisoner.prisoner_name}} </p>
+        <p><strong>Tiểu sử: </strong>{{prisoner.prisoner_about | safe  }} </p>
+        <p><strong>Tội trạng:</strong> {{prisoner.prisoner_current_charges | safe}} </p>
+        <p><strong>Tiền án tiền sự:</strong> {{prisoner.prisoner_old_charges | safe}} </p>
+        <p><strong>Thời gian giam giữ:</strong> {{prisoner.prisoner_jail_time}}  năm </p>
+        <p><strong>Khu giam giữ: </strong>{{prisoner.prisoner_jail_section}} </p>
+        <p><strong>Phòng giam: </strong>{{prisoner.prisoner_jail_room}} </p>
+    </div>
+</div>
+{% endblock %}

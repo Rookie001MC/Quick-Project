@@ -44,6 +44,11 @@ header div#guarantee-not-to-work {
   padding: 15px;
 }
 
+main {
+  margin: 100px;
+  padding: 50px;
+}
+
 footer {
   position: fixed;
   bottom: 0;

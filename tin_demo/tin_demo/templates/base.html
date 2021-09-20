@@ -16,6 +16,8 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+    {% block per_page_styles %}
+    {% endblock %}
 </head>
 
 <body>
@@ -40,7 +42,7 @@
                     <ul class="navbar-nav">
                         <!-- Link -->
                         <li class="nav-item">
-                            <a class="nav-link" id="prison-name" href="#">*insert prison name here*</a>
+                            <a class="nav-link" id="prison-name" href="{% url 'bulletin'%}">*insert prison name here*</a>
                         </li>
                     </ul>
                 </div>
@@ -52,11 +54,12 @@
             dashboard<br>but effectiveness is debatable.</div>
     </header>
 
-    <main>{% block page_content %}{% endblock %}
+    <main>
+        {% block page_content %}{% endblock %}
     </main>
 
     <footer class="text-center">
-        <div class="container-fluid" id="hehe">Made for IT class demo for Rookie Nguyen.</div>
+        <div class="container-fluid" id="hehe">Made for IT class demo for Rookie Nguyen.     All data is fictional, and only serves for the purpose of the presentation.</div>
     </footer>
     <!-- MDB -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"></script>
