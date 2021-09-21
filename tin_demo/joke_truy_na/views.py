@@ -22,7 +22,7 @@ def prisoner_detail(request, pk):
 '''
 
 class homepage_render(generic.ListView):
-    query_set = Prisoner.objects.all()
+    model = Prisoner
     template_name = 'bulletin_board.html'
 
 class prisoner_detail(generic.DetailView):
