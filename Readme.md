@@ -3,7 +3,7 @@ Trang web quản lý tù nhân của nhóm 5 (nhóm HSG), phục vụ cho thuy�
 
 Được làm bởi [Python](https://www.python.org/), [Django Framework](https://www.djangoproject.com/) và [Bootstrap](https://getbootstrap.com/).
 
-*Note: Đây chỉ là 1 demo. Em ko giỏi code nên mọi thữ sẽ ko đẹp lắm* 
+*Note: Đây chỉ là 1 demo. Em ko giỏi code nên mọi thữ sẽ ko đẹp lắm 🥲* 
 # Cách để chạy trang web
 * Cài đặt Python 3.8.15 hay mới hơn.
  
