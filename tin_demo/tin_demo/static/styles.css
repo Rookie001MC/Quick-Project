@@ -32,6 +32,7 @@ header a.nav-link#prison-name:after {
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+  color: whitesmoke
 }
 header a.nav-link#prison-name:hover:after {
   width: 100%;
