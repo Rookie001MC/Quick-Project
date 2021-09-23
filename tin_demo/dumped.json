@@ -52,6 +52,188 @@
   }
 },
 {
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2021-09-20T12:27:21.173Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2021-09-20T12:33:53.342Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190008",
+    "object_repr": "Prisoner object (190008)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2021-09-20T12:40:58.761Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190010",
+    "object_repr": "Prisoner object (190010)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2021-09-20T12:41:23.295Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190010",
+    "object_repr": "Prisoner object (190010)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2021-09-20T12:41:52.091Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190010",
+    "object_repr": "Prisoner object (190010)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner current charges\", \"Prisoner old charges\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2021-09-21T16:01:28.769Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190012",
+    "object_repr": "Prisoner object (190012)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2021-09-21T16:04:41.162Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner about\", \"Prisoner current charges\", \"Prisoner old charges\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2021-09-21T16:05:02.372Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2021-09-21T16:09:10.566Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190025",
+    "object_repr": "Prisoner object (190025)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2021-09-21T17:45:01.250Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190010",
+    "object_repr": "Prisoner object (190010)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner image\", \"Prisoner current charges\", \"Prisoner old charges\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-09-21T17:48:53.240Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190008",
+    "object_repr": "Prisoner object (190008)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner current charges\", \"Prisoner old charges\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2021-09-21T17:49:44.569Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190012",
+    "object_repr": "Prisoner object (190012)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner about\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2021-09-21T17:50:02.596Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190012",
+    "object_repr": "Prisoner object (190012)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner about\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2021-09-21T17:50:25.325Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "190012",
+    "object_repr": "Prisoner object (190012)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prisoner jail time\"]}}]"
+  }
+},
+{
   "model": "auth.permission",
   "pk": 1,
   "fields": {
@@ -423,6 +605,14 @@
 },
 {
   "model": "sessions.session",
+  "pk": "37m81wxmcfi69v6xjzxkkqjuvv8a7073",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChYEGX7nsGMsxMpWogKe3KeHfbpAvdvvf-f6uI65Lj2mSOE6urMur0yxLSU8ou-IHlXjXVssxT0nuiD9v0UFlet6P9O8jY8rbGbnQWwTmWngJYRyLY4ZiMFfYbw2Cct2efApOxnICJLs6EgGAAevX5AgB4OEE:1mSIOA:2AH47Vne25V9yc7vcfJuHodylDGSezY4KUecf5C7pio",
+    "expire_date": "2021-10-04T12:27:14.293Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "etaik0dai7xq83tdmemzvvenl46gdjx1",
   "fields": {
     "session_data": ".eJxVjEEOwiAQRe_C2pChYEGX7nsGMsxMpWogKe3KeHfbpAvdvvf-f6uI65Lj2mSOE6urMur0yxLSU8ou-IHlXjXVssxT0nuiD9v0UFlet6P9O8jY8rbGbnQWwTmWngJYRyLY4ZiMFfYbw2Cct2efApOxnICJLs6EgGAAevX5AgB4OEE:1mS8RW:Szz7YpanufXPiFeatsEvp9TL3wqkGKGtn5HkAwXkAVs",
@@ -430,14 +620,64 @@
   }
 },
 {
+  "model": "sessions.session",
+  "pk": "hx347i4dqkjymouaa5fqhd52szc8d341",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pChYEGX7nsGMsxMpWogKe3KeHfbpAvdvvf-f6uI65Lj2mSOE6urMur0yxLSU8ou-IHlXjXVssxT0nuiD9v0UFlet6P9O8jY8rbGbnQWwTmWngJYRyLY4ZiMFfYbw2Cct2efApOxnICJLs6EgGAAevX5AgB4OEE:1mSHft:8uvFC9qL5FxztDSEFWK020Paht1Ly92PT0-DfQbUysY",
+    "expire_date": "2021-10-04T11:41:29.354Z"
+  }
+},
+{
+  "model": "joke_truy_na.prisoner",
+  "pk": "190008",
+  "fields": {
+    "prisoner_name": "Nguyễn Thị Nguyệt Hảo",
+    "prisoner_image": "uwu_mZ4MrZh.jpg",
+    "prisoner_about": "<p>UwU</p>",
+    "prisoner_current_charges": "<div><span style=\"color: rgb(255, 0, 0); --darkreader-inline-color:#ff1a1a;\" data-darkreader-inline-color=\"\">Chưa cập nhật thông tin</span></div>",
+    "prisoner_old_charges": "<ul><li>Trộm chó</li><li>Tham gia buôn bán mèo với Ngô Lê Ánh Linh&nbsp;</li></ul>",
+    "prisoner_jail_time": 5,
+    "prisoner_jail_section": "Nhà giam chung",
+    "prisoner_jail_room": 420
+  }
+},
+{
+  "model": "joke_truy_na.prisoner",
+  "pk": "190010",
+  "fields": {
+    "prisoner_name": "Phan Tuấn Huy",
+    "prisoner_image": "242401070_376440520781885_7453275401342111354_n.jpg",
+    "prisoner_about": "<p>Có niềm đam mê thông thái mãnh liệt&nbsp;</p>",
+    "prisoner_current_charges": "<ul><li>Từ ngữ xúc phạm</li></ul>",
+    "prisoner_old_charges": "<ul><li>Giết người</li></ul>",
+    "prisoner_jail_time": 666,
+    "prisoner_jail_section": "Nhà giam chung",
+    "prisoner_jail_room": 666
+  }
+},
+{
+  "model": "joke_truy_na.prisoner",
+  "pk": "190012",
+  "fields": {
+    "prisoner_name": "Ngô Lê Ánh Linh",
+    "prisoner_image": "242395198_1395830607480486_1137604026947906030_n.jpg",
+    "prisoner_about": "<p><font color=\"#d6d2cd\" face=\"-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif\" data-darkreader-inline-color=\"\" style=\"--darkreader-inline-color:#cbc7c0;\"><span style=\"font-size: 16px;\">Black sheep of the family, lone wolf of the society.</span></font></p><p><br></p>",
+    "prisoner_current_charges": "<ul><li>Phóng hỏa</li><li>Giết người</li></ul>",
+    "prisoner_old_charges": "<ul><li>Buôn mèo lậu</li></ul>",
+    "prisoner_jail_time": 1337,
+    "prisoner_jail_section": "Nhà kỉ luật",
+    "prisoner_jail_room": 1
+  }
+},
+{
   "model": "joke_truy_na.prisoner",
   "pk": "190025",
   "fields": {
     "prisoner_name": "Nguyễn Hữu Quốc Thắng",
-    "prisoner_image": "dumbfuck_78Prp8i.jpg",
-    "prisoner_about": "<ul><li>Thằng ngu</li></ul>",
-    "prisoner_current_charges": "<ul><li>Là thằng ngu</li><li>Nói nhiều</li><li>Lằng nhằng</li></ul>",
-    "prisoner_old_charges": "<ul><li>All being dumb</li></ul>",
+    "prisoner_image": "242106216_293731582268961_2799261109046573642_n_0tW8Bso.jpg",
+    "prisoner_about": "<p><i>\"Stabbing behind their backs, one server at a time.\"</i></p>",
+    "prisoner_current_charges": "<ul><li>Hack máy chủ của chính phủ</li></ul>",
+    "prisoner_old_charges": "<div>Không có</div>",
     "prisoner_jail_time": 30,
     "prisoner_jail_section": "Nhà giam riêng",
     "prisoner_jail_room": 69
