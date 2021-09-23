@@ -4,8 +4,9 @@ from django_summernote.admin import SummernoteModelAdmin
 # Register your models here.
 
 class PrisonerAdmin(SummernoteModelAdmin):
-    list_display = ('prisoner_name', 'prisoner_id', 'prisoner_jail_section','prisoner_jail_room')
+    list_display = ('prisoner_name', 'prisoner_id', 'prisoner_about','prisoner_current_charges', 'prisoner_old_charges','prisoner_jail_section','prisoner_jail_room')
     search_fields = ['prisoner_name', 'prisoner_id']
+    list_filter = ['prisoner_jail_section']
     summernote_fields = (
         'prisoner_current_charges',
         'prisoner_about',

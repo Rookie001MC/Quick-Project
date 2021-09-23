@@ -6,19 +6,24 @@
 <div class="container" id="database">
     <div class="row">
         {% for prisoner in prisoner_list %}
-        <div class="col-md-4 d-flex align-items-stretch">
+        <div class="col-md-6 d-flex align-items-stretch">
             <div class="card mb-2" style="
                                         box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);
                                         -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);
                                         -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.65);  
                                         border-radius: 20px;
+                                        width: 100%;
                                         ">
                 <img class="card-img-top d-flex flex-column" src="/media/{{ prisoner.prisoner_image }}">
                 <div class="card-body d-flex flex-column" style="
                                         border: rgba(0,0,0,0.35) solid 0.5px;
+                                        padding: 10%;
                                         ">
                     <h3 class="card-title">{{ prisoner.prisoner_name }}</h3>
-                    <p class="card-text">{{ prisoner.prisoner_current_charges | safe }}</p>
+                    <hr>
+                    <p class="card-text">Các tội trạng:</p>
+                    <p class="card-text">{{ prisoner.prisoner_current_charges | safe }} {{prisoner.prisoner_old_charges | safe}}</p>
+                    <p class="card-text">Thơì gian giam giữ: {{ prisoner.prisoner_jail_time }} năm</p>
                     <a href="{% url 'prisoner_detail' prisoner.pk %}" class="btn btn-primary">
                         Read More
                     </a>

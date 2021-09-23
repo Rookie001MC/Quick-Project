@@ -19,7 +19,10 @@ header a.nav-link#prison-name {
   font-size: 40px;
 }
 header a.nav-link#prison-name:link {
-  color: whitesmoke;
+  color: whitesmoke !important;
+}
+header a.nav-link#prison-name:visited {
+  color: wheat !important;
 }
 header a.nav-link#prison-name:after {
   background: none repeat scroll 0 0 transparent;
@@ -32,7 +35,6 @@ header a.nav-link#prison-name:after {
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
-  color: whitesmoke
 }
 header a.nav-link#prison-name:hover:after {
   width: 100%;

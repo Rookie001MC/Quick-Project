@@ -17,7 +17,10 @@ header{
     a.nav-link#prison-name{
         font-size: 40px;
         &:link{
-            color: whitesmoke;
+            color: whitesmoke !important;
+        }
+        &:visited{
+            color: wheat !important;
         }
         &:after {    
             background: none repeat scroll 0 0 transparent;
